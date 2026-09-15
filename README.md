@@ -39,7 +39,7 @@ which:
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/server-health-monitor.git
+git clone https://github.com/PRAV1908/server-health-monitor.git
 cd server-health-monitor
 
 # 1. Edit thresholds, services to check, and your Slack webhook URL
