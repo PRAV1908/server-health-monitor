@@ -1,0 +1,11 @@
+[Unit]
+Description=Server Health Monitor - single run
+Wants=server-monitor.timer
+
+[Service]
+Type=oneshot
+# Update this path to wherever you clone the repo
+ExecStart=/opt/server-health-monitor/monitor.sh
+
+[Install]
+WantedBy=multi-user.target
